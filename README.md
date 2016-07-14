@@ -1,5 +1,11 @@
 # Career Jet Jobs Client
 
+[![Build Status](https://travis-ci.org/jorgejavierleon/jobs-careerjet.svg?branch=master)](https://travis-ci.org/jorgejavierleon/jobs-careerjet)
+[![License](https://poser.pugx.org/jorgejavierleon/jobs-careerjet/license)](https://packagist.org/packages/jorgejavierleon/jobs-careerjet)
+[![Latest Unstable Version](https://poser.pugx.org/jorgejavierleon/jobs-careerjet/v/unstable)](https://packagist.org/packages/jorgejavierleon/jobs-careerjet)
+[![Total Downloads](https://poser.pugx.org/jorgejavierleon/jobs-careerjet/downloads)](https://packagist.org/packages/jorgejavierleon/jobs-careerjet)
+[![Scrutinizer](https://img.shields.io/scrutinizer/g/jorgejavierleon/jobs-careerjet.svg?style=flat-square)](https://scrutinizer-ci.com/g/jorgejavierleon/jobs-careerjet/)
+
 This package provides [Career Jet API](http://www.careerjet.com/tools/api/php.html)
 support for the JobBrander's [Jobs Client](https://github.com/JobBrander/jobs-common).
 
