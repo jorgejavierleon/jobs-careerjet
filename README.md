@@ -24,4 +24,4 @@ $ ./vendor/bin/phpunit
 
 ## License
 
-The Apache 2.0. Please see [License File](https://github.com/jorgejavierleon/jobs-careerjet/blob/master/LICENSE) for more information.
+The Apache 2.0. Please see [License File](https://github.com/jorgejavierleon/jobs-careerjet/blob/master/LICENSE.md) for more information.
