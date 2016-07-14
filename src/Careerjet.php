@@ -214,7 +214,7 @@ class Careerjet extends AbstractProvider
      * @param  string  $value
      * @param  string  $key
      *
-     * @return Indeed
+     * @return Careerjet
      */
     protected function updateQuery($value, $key)
     {
