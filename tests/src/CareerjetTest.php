@@ -201,10 +201,4 @@ class CareerjetTest extends \PHPUnit_Framework_TestCase
 
         return array_replace($defaults, $attributes);
     }
-
-
-    private function dd($value)
-    {
-        die(var_dump($value));
-    }
 }
