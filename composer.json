@@ -1,0 +1,41 @@
+{
+    "name": "jorgejavierleon/jobs-careerjet",
+    "type": "library",
+    "description": "Making it simple to integrate your application with CareerJet Jobs API.",
+    "keywords": [
+        "jobs",
+        "api client",
+        "object",
+        "angel list"
+    ],
+    "homepage": "https://github.com/jorgejavierleon/jobs-careerjet",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jorge Javier Leon",
+            "email": "jorgejavierleon@gmail.com",
+            "homepage": "https://github.com/jorgejavierleon"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "jobbrander/jobs-common": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.6",
+        "phpunit/php-code-coverage": "~2.0",
+        "mockery/mockery": ">=0.9.4",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jorgejavierleon\\Careerjet\\": "src/"
+        }
+
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jorgejavierleon\\Careerjet\\Test\\": "tests/src/"
+        }
+    }
+}
