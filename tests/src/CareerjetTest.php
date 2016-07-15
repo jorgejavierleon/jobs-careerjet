@@ -131,9 +131,10 @@ class CareerjetTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($payload['title'], $results->getName(), 'no name');
         $this->assertEquals($payload['description'], $results->getDescription(), 'no description');
         $this->assertEquals($payload['company'], $results->getCompany(), 'no company');
-        $this->assertEquals($payload['salary'], $results->getSalary(), 'no salary');
-        $this->assertEquals($payload['date'], $results->getDate(), 'no date');
-        $this->assertEquals($payload['location'], $results->getLocation(), 'no date');
+        $this->assertEquals($payload['salary'], $results->getBaseSalary(), 'no salary');
+        $this->assertEquals($payload['date'], $results->getDatePosted(), 'no date');
+        $this->assertEquals($payload['locations'], $results->getLocation(), 'no location');
+        $this->assertEquals($payload['locations'], $results->getJobLocation(), 'no location');
         $this->assertEquals($payload['url'], $results->getUrl(), 'no url');
     }
 
@@ -182,7 +183,7 @@ class CareerjetTest extends \PHPUnit_Framework_TestCase
             'company' => uniqid(),
             'salary' => uniqid(),
             'date' => '2015-07-'.rand(1, 31),
-            'location' => uniqid().', '.uniqid(),
+            'locations' => uniqid().', '.uniqid(),
             'url' => uniqid(),
         ];
     }

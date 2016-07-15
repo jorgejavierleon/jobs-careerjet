@@ -52,7 +52,7 @@ class Careerjet extends AbstractProvider
      * @var array
      */
     protected $jobDefaults = ['title','company','locations','salary',
-        'date','description', 'date', 'location', 'url'
+        'description', 'date', 'location', 'url'
     ];
 
 
@@ -117,10 +117,11 @@ class Careerjet extends AbstractProvider
             'name' => $payload['title'],
             'description' => $payload['description'],
             'company' => $payload['company'],
-            'salary' => $payload['salary'],
-            'date' => $payload['date'],
+            'baseSalary' => $payload['salary'],
+            'datePosted' => $payload['date'],
             'url' => $payload['url'],
-            'location' => $payload['location'],
+            'jobLocation' => $payload['locations'],
+            'location' => $payload['locations'],
         ]);
     }
 
